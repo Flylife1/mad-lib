@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mad Lib</title>
+		<style>
+
+		body { 
+			font: 18px/30px helvetica, sans-serif;
+
+		
+		}
+
+		span {
+			background: #EBAB00;
+
+		}
+
+		</style>
+	</head>
+	<body>
+		<p>
+			Why do they drive on the left in some countries and on the right in others?
+
+			It goes back to the fact that most <span id="noun"></span> are right-handed.
+
+			Long before we had modern weapons such as <span id="tools"></span> and <span id="silverware"></span>, people had to do battle using <span id="weapons"></span> and <span id="animals"></span>. Now if you are right-handed, you wear your sword on the left, so that you can <span id="verb"></span> it out rapidly with your right hand. But with that <span id="adjective"></span>, dangling scabbard encumbering your left side, the only way you can mount a horse is by throwing your free right leg over him. And unless you are in a <span id="celebrity"></span> movie and want to wind up sitting backward on your steed, that means that the <span id="animal-2"></span>'s' head has to be pointing to your left. To this day we still <span id="verb-2"></span> <span id="animals-2"></span>to be saddled and mounted from their left sides.
+
+			Now that you are mounted, you will want to stay on the left side as you <span id="verb-3"></span> down the road, because anyone coming toward you will be on your right, and if that someone turns out to be an <span id="noun-3"></span>, you can <span id="verb-4"></span> out your <span id="noun-4"></span> with your right hand and be in position to run the scoundrel through. Thus, prudent horsemen have always ridden on the left side of the road.
+
+		</p>
+
+		<script>
+
+		document.getElementById('noun').innerHTML = prompt('[1/15] enter a noun (plural)');
+		document.getElementById('tools').innerHTML = prompt('[2/15] enter a tool (plural)');
+		document.getElementById('silverware').innerHTML = prompt('[3/15] enter utensil (plural)');
+		document.getElementById('weapons').innerHTML = prompt('[4/15] enter a weapon (plural)');
+		document.getElementById('animals').innerHTML = prompt('[5/15] enter an animal (plural)');
+		document.getElementById('verb').innerHTML = prompt('[6/15] enter a verb');
+		document.getElementById('adjective').innerHTML = prompt('[7/15] enter an adjective');
+		document.getElementById('celebrity').innerHTML = prompt('[8/15] enter a celebrity');
+		document.getElementById('animal-2').innerHTML = prompt('[9/15] enter an animal');
+		document.getElementById('verb-2').innerHTML = prompt('[10/15] enter a verb');
+		document.getElementById('animals-2').innerHTML = prompt('[11/15] enter a mythological beast (plural)');
+		document.getElementById('verb-3').innerHTML = prompt('[12/15] enter a verb');
+		document.getElementById('noun-3').innerHTML = prompt('[13/15] enter a noun (starting with a vowel)');
+		document.getElementById('verb-4').innerHTML = prompt('[14/15] enter a verb');
+		document.getElementById('noun-4').innerHTML = prompt('[15/15] enter a fruit');
+
+		
+
+		</script>
+	</body>
+
+
+</html>
